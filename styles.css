@@ -1,0 +1,55 @@
+body{
+    background-color:darkslategrey;
+    color: rgb(224, 167, 91);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Space Mono', monospace;
+    margin: auto;
+}
+
+h1{
+    color: rgb(224, 167, 91);
+    font-size: 80px;
+    font-family: 'Shrikhand', serif;
+}
+
+a{
+    color: deeppink;
+}
+
+a:visited{
+    color: deeppink;
+}
+
+a:hover{
+    color:rgb(255, 187, 223);
+    background-color: deeppink;
+    box-shadow: 9px 9px 26px #797998, -9px -9px 26px #c1c1f2;
+}
+
+img{
+    background-color: deeppink;
+    padding: 10px;
+    box-shadow: 9px 9px 26px #797998, -9px -9px 26px #c1c1f2;
+}
+
+img:hover{
+    transform: scale(110%);
+    filter: saturate(300%);
+    box-shadow: 18px 18px 52px #797998, -18px -18px 52px #c1c1f2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.glanceback{
+    padding-bottom: 10px;
+}
+
+p{
+    padding-top: 150px;
+
+}
