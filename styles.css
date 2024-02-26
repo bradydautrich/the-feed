@@ -11,6 +11,7 @@ h1{
     color: rgb(224, 167, 91);
     font-size: 80px;
     font-family: 'Shrikhand', serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 a{
