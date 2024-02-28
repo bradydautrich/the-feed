@@ -5,8 +5,10 @@ body{
     justify-content: space-around;
     font-family: 'Space Mono', monospace;
     margin: auto;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h1{
@@ -46,6 +48,8 @@ img:hover{
     display: flex;
     flex-direction: column;
     padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .glanceback{
@@ -73,4 +77,11 @@ footer{
     border-width: 10px;
     border-color: deeppink;
     box-shadow: 9px 9px 26px #797998, -9px -9px 26px #c1c1f2;
+    width: 600px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
