@@ -5,6 +5,8 @@ body{
     justify-content: space-around;
     font-family: 'Space Mono', monospace;
     margin: auto;
+    font-size: 30px;
+    padding-top: 30px;
 }
 
 h1{
@@ -50,7 +52,25 @@ img:hover{
     padding-bottom: 10px;
 }
 
-p{
-    padding-top: 150px;
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
 
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    padding: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: deeppink;
+    box-shadow: 9px 9px 26px #797998, -9px -9px 26px #c1c1f2;
 }
