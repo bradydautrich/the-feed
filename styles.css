@@ -40,6 +40,7 @@ img{
 
 img:hover{
     transform: scale(110%);
+    transition: .5s;
     filter: saturate(300%);
     box-shadow: 18px 18px 52px #797998, -18px -18px 52px #c1c1f2;
 }
